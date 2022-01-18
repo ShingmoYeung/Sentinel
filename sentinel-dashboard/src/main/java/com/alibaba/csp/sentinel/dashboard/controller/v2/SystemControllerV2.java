@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.alibaba.csp.sentinel.dashboard.controller;
+package com.alibaba.csp.sentinel.dashboard.controller.v2;
 
 import com.alibaba.csp.sentinel.dashboard.auth.AuthAction;
 import com.alibaba.csp.sentinel.dashboard.auth.AuthService.PrivilegeType;
@@ -38,9 +38,9 @@ import java.util.List;
  * @author leyou(lihao)
  */
 @RestController
-@RequestMapping("/system")
-public class SystemController {
-    private final Logger logger = LoggerFactory.getLogger(SystemController.class);
+@RequestMapping("/v2/system")
+public class SystemControllerV2 {
+    private final Logger logger = LoggerFactory.getLogger(SystemControllerV2.class);
 
     @Autowired
     private RuleRepository<SystemRuleEntity, Long> repository;

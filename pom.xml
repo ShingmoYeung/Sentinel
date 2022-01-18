@@ -72,13 +72,14 @@
         <module>sentinel-extension</module>
         <module>sentinel-transport</module>
         <module>sentinel-adapter</module>
-        <module>sentinel-cluster</module>
+        <!--<module>sentinel-cluster</module>-->
         <module>sentinel-logging</module>
 
         <module>sentinel-dashboard</module>
 
-        <module>sentinel-demo</module>
-        <module>sentinel-benchmark</module>
+        <!-- 以下为样例工程和基准测试工程 -->
+        <!--<module>sentinel-demo</module>-->
+        <!--<module>sentinel-benchmark</module>-->
 
     </modules>
 
