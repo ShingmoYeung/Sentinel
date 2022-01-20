@@ -26,12 +26,10 @@
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-cluster-common-default</artifactId>
         </dependency>
-
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-handler</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-datasource-nacos</artifactId>
@@ -42,7 +40,6 @@
             <artifactId>sentinel-parameter-flow-control</artifactId>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
