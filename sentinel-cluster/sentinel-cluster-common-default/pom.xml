@@ -18,5 +18,4 @@
             <artifactId>sentinel-core</artifactId>
         </dependency>
     </dependencies>
-
 </project>
